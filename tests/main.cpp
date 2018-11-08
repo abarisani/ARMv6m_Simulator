@@ -20,8 +20,6 @@ int main()
 {
     printf("\n **** Startings tests ****\n");
 
-    // FIXME: address commented failing tests
-
     test_cmpImmediateCompareLowestRegisterToEqualValue();
     test_cmpImmediateCompareHighestRegisterToImmediateWhichIsSmaller();
     test_cmpImmediateCompareRegisterToLargestImmediateWhichIsLarger();
